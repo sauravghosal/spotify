@@ -11,7 +11,14 @@ const Song = props => (
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>{props.artist}</Card.Text>
-        <Button variant="primary">Add to Queue</Button>
+        <Button
+          variant="primary"
+          onClick={() => {
+            props.addToQueue(props.id);
+          }}
+        >
+          Add to Queue
+        </Button>
       </Card.Body>
     </Card>
   </Col>
