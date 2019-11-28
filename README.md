@@ -3,15 +3,15 @@ This project is a Spotify playlist design mockup built using **ReactJS**. Based 
 
 To start the web app, clone the repository using the following command:
 
-    $ git clone 
+    $ git clone https://github.com/sauravghosal/spotify.git
    
 Then, make sure you install React Bootstrap and other required modules by typing
 
     $ npm install react-bootstrap bootstrap
     $ npm install
 
- You're ready to run the web app! Type in your command line
+ And... you're ready to run the web app! Type in your command line
  
-
     $ npm start
+
 and you're all set!
